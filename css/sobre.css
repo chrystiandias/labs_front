@@ -1,0 +1,18 @@
+body {
+  color: #333333;
+  font-family: "Lucia Sans Unicode" , "Lucida Grande" , sans-serif;
+}
+h1 {
+    background-image: url(../img/sobre-background.jpg);
+}
+h2{
+    border-bottom: 2px groove #333333;
+}
+figure{
+    background-color: #0c7eb3;
+    border: 1px solid #d5dbd5;
+    text-align: center;
+}
+figcaption{
+    font-style: italic;
+}
