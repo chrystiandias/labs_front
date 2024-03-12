@@ -1,20 +1,27 @@
+:root{
+    --cor-base: #333333;
+    --cor-fundo-img: #0c7eb3;
+    --cor-borda-img: #d5dbd5;
+}
 body {
-  color: #333333;
+  color: var(--cor-base);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-}
+
 h1 {
     background-image: url(../img/sobre-background.jpg);
 }
 h2{
-    border-bottom: 2px groove #333333;
+    border-bottom: 2px groove var(--cor-base);
+    
 }
 figure{
-    background-color: #0c7eb3;
-    border: 1px solid #d5dbd5;
+    background-color: var(--cor-fundo-img);
+    border: 1px solid var(--cor-borda-img);
     text-align: center;
+    
 }
 figcaption{
     font-style: italic;
