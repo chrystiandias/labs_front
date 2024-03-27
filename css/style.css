@@ -1,19 +1,21 @@
-:root{
-    --cor-primaria: #2a2633;
-    --cor-secundaria: #675c80;
-    --cor-destaque: #826308;
-    --cor-fundo-destaque: #4515c9;
+.sacola {
+    background: url(../img/sacola.png) no-repeat top right;
+
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
 }
 
-h1{
-    color: var(--cor-primaria);
+.menu-opcoes ul{
+    font-size: 15px;
 }
 
-h2{
-    color: var(--cor-secundaria);
+.menu-opcoes a{
+    color: #003366;
 }
 
-p{
-    color: var(--cor-destaque);
-    background-color: var(--cor-fundo-destaque);
+body {
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
