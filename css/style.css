@@ -9,10 +9,16 @@
     padding-right: 35px;
     text-align: right;
     width: 140px;
+    padding-top: 8px;
 }
 
 .menu-opcoes ul{
     font-size: 15px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
 }
 
 .menu-opcoes a{
@@ -23,3 +29,12 @@ body {
     color: var(--cor-base);
     font-family: "Roboto", sans-serif;
 }
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+
+
