@@ -4,12 +4,21 @@
 }
 .sacola {
     background: url(../img/sacola.png) no-repeat top right;
-
+    
     font-size: 14px;
     padding-right: 35px;
     text-align: right;
     width: 140px;
     padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .menu-opcoes ul{
@@ -33,6 +42,10 @@ body {
 .container {
     margin: 0 auto;
     width: 90%;
+}
+
+header{
+    position: relative;
 }
 
 
