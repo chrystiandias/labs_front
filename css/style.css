@@ -3,6 +3,8 @@
     --cor--menu: #036;
     --cor--menu-lateral: #dcdcdc;
     --cor-menu-lateral-itens: #fff;
+    --cor-painel-novidades: #f5dcdc;
+    --cor-painel-mais-vendidos: #dcdcf5;
 }
 .sacola {
     background: url(../img/sacola.png) no-repeat top right;
@@ -43,7 +45,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 90%;
+    width: 940px;
 }
 
 header{
@@ -111,7 +113,7 @@ header{
 .painel li{
     display: inline-block;
     vertical-align: top;
-    width: 140px;
+    width: 135px;
     margin: 2px;
     padding-bottom: 10px;
 }
@@ -132,11 +134,11 @@ header{
 }
 
 .novidades {
-    background-color: #f5dcdc;
+    background-color: var(--cor-painel-novidades);
 }
 
 .mais-vendidos {
-    background-color: #dcdcf5;
+    background-color: var(--cor-painel-mais-vendidos);
 }
 
 
