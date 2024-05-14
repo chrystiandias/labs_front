@@ -64,3 +64,11 @@ p{
     margin: 0 auto;
     width: 90%;
 }
+
+p: first-line {
+    font-variant: small-caps;
+}
+
+h1 + p {
+    text-indent: 0;
+}
