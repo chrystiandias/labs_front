@@ -6,7 +6,14 @@
     --cor-menu-lateral-itens-hover: #007dc6;
     --cor-menu-lateral-itens-active: #f00;
     --cor-painel-novidades: #f5dcdc;
+    --cor-painel-shadow: #999;
+    --cor-painel-titulo: rgba(0, 0, 0, 0.5);
+    --cor-painel-mais-novidades: #dcdcf5;
+    --cor-painel-novidades-grad: #bebef4;
     --cor-painel-mais-vendidos: #dcdcf5;
+    --cor-painel-mais-vendidos-grad: #bebef4;
+
+    
     
 }
 .sacola {
@@ -126,6 +133,7 @@ header{
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 2px var(--cor-painel-titulo);
 }
 
 
@@ -137,11 +145,11 @@ header{
 }
 
 .novidades {
-    background-color: var(--cor-painel-novidades);
+    background: linear-gradient(var(--cor-painel-novidades), var(--cor-painel-novidades-grad));
 }
 
 .mais-vendidos {
-    background-color: var(--cor-painel-mais-vendidos);
+    background: linear-gradient(var(--cor-painel-mais-vendidos), var(--cor-painel-mais-vendidos-grad));
 }
 
 .social a {
@@ -205,4 +213,7 @@ footer {
     content: '- ';
 }
 
-
+.painel {
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 10px #999;
+}
