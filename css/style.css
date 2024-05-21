@@ -8,6 +8,7 @@
     --cor-painel-novidades: #f5dcdc;
     --cor-painel-shadow: #999;
     --cor-painel-titulo: rgba(0, 0, 0, 0.5);
+    --cor-painel-base: rgba(255, 255, 255, 0.8);
     --cor-painel-mais-novidades: #dcdcf5;
     --cor-painel-novidades-grad: #bebef4;
     --cor-painel-mais-vendidos: #dcdcf5;
@@ -126,6 +127,7 @@ header{
     width: 135px;
     margin: 2px;
     padding-bottom: 10px;
+    transition: 0.7s ease-out;
 }
 
 .painel h2 {
@@ -216,4 +218,15 @@ footer {
 .painel {
     border-radius: 10px;
     box-shadow: inset 1px 1px 10px #999;
+}
+
+.painel li:hover {
+    background-color: var(--cor-painel-base);
+    box-shadow: 0 0 5px var(--cor-base);
+    transition: 0.7s ease-in;
+    transform: scale(1.05) rotate(-5deg);
+}
+
+.painel li:nth-child(2n) :hover {
+    transform: scale(1.05) rotate(5deg);
 }
